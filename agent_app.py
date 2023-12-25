@@ -6,7 +6,7 @@ st.set_page_config(page_title="Agent", page_icon="🤖")
 st.title("Agent")
 
 
-prompt = st.text_input("Enter your prompt")
+prompt = st.text_input("Ask me about weather in any city in the world")
 
 if prompt:
     next_step = glib.TOOL_PROMPT.format(
