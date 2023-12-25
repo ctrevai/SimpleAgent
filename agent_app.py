@@ -17,7 +17,7 @@ if prompt:
         done, next_step = glib.single_agent_step(next_step, output)
 
         if not done:
-            st.write('Not done yet ' + output)
+            st.write("Thinking.... " + output)
         else:
-            st.write('Final answer is ' + next_step)
+            st.write("Final answer... " + next_step)
             break
